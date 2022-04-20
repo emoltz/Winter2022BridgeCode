@@ -1,2 +1,2 @@
-17 Aang
-18 Zuko
+Aang 17
+Zuko 18
