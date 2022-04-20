@@ -3,12 +3,14 @@
 #include <fstream>
 using namespace std;
 
+class AirbenderCharacter;
+typedef AirbenderCharacter* AirPtr;
 
 class AirbenderCharacter{
 public:
     int _ID;
     string _name;
-    AirbenderCharacter* next;
+    AirPtr next;
     AirbenderCharacter(int ID, string name){
         _ID = ID;
         _name = name;
@@ -29,7 +31,6 @@ int main(){
 
     int tempID;
     string tempName;
-  
     while (in_stream >> tempName){
         in_stream >> tempID;
         out_stream << "ID: " << tempID << endl;
