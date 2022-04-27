@@ -131,7 +131,7 @@ public:
 
                 if (p1->_data >= p2->_data){
                     //update the link!
-                    //there is an issue in the line below -- see if you can debug it!
+                    //there is an issue in the line below -- see if you can debug it! Hint: it may require a custom function
                     *h = swap(p1, p2);
                     swapped = 1;
                 }
