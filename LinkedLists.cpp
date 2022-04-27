@@ -127,10 +127,11 @@ public:
             
             for(int j = 0; j < count - i - 1; j++){
                 node* p1 = *h;
-                node* p2 = p1._next;
+                node* p2 = p1->_next;
 
-                if (p1->_data >= p2._data){
+                if (p1->_data >= p2->_data){
                     //update the link!
+                    //there is an issue in the line below -- see if you can debug it!
                     *h = swap(p1, p2);
                     swapped = 1;
                 }
@@ -204,12 +205,12 @@ public:
 int main(){
     linkedList l;
     l.add_node(1);
-    l.add_node(2);
-    l.add_node(3);
     l.add_node(4);
+    l.add_node(3);
+    l.add_node(1);
 
     // l.display();
-    
+
 
     // vector<int> v;
     // v.push_back(1);
@@ -220,14 +221,6 @@ int main(){
     // for (ptr = v.begin(); ptr < v.end(); ptr++){
     //     cout << *ptr << endl;
     // }
-    
-    class2 two;
-    two._data2 = 5;
-    class1 *p = new class1;
-    p->_data = 10;
-    two.ptr = p;
-    cout << two;
-
 
 
     return 0;
