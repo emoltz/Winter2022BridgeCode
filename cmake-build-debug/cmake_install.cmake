@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Winter 24 Week/Code/fstream_demo
+# Install script for directory: /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Winter 24 Week/Code/Winter2022_24
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Winter 24 Week/Code/fstream_demo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Winter 24 Week/Code/Winter2022_24/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
