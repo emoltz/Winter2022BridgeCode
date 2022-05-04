@@ -33,8 +33,24 @@ void RedBlackNode<T>::prettyPrint(int indent) const {
  * 4) pop() and continue until queue is empty
  * */
 
+/* Sample 2:
+ * Say you have a binary search tree. Here is the node class:
+ */
+class node{
+public:
+    int data;
+    BST* left;
+    BST* right;
+    BST* parent;
+    //etc.
+};
+/* Write a recursive function that returns the number of null child pointers in the tree
+ */
+
 
 int main(){
-    //
+    queue<int> q;
+    q.push(5);
+    q.size();
 
 }
