@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -28,11 +29,12 @@
 					[
 						0
 					],
-					"name" : "fstream_demo",
+					"name" : "Winter2022_24",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "May4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-May4-Debug-76d3390bdaa65ee10f8f.json",
 					"name" : "May4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-4fdf4f98bd8fa1437166.json",
+					"name" : "main",
 					"projectIndex" : 0
 				}
 			]

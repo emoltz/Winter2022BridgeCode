@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "fstream_demo"
+			"value" : "Winter2022_24"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1076,6 +1076,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "Winter2022_24_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Winter 24 Week/Code/Winter2022_24/cmake-build-debug"
+		},
+		{
+			"name" : "Winter2022_24_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Winter2022_24_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Winter 24 Week/Code/Winter2022_24"
 		},
 		{
 			"name" : "fstream_demo_BINARY_DIR",
