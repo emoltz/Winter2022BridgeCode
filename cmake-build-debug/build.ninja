@@ -71,6 +71,37 @@ build LinkedLists: CXX_EXECUTABLE_LINKER__LinkedLists_Debug CMakeFiles/LinkedLis
   TARGET_FILE = LinkedLists
   TARGET_PDB = LinkedLists.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target May4
+
+
+#############################################
+# Order-only phony target for May4
+
+build cmake_object_order_depends_target_May4: phony || CMakeFiles/May4.dir
+
+build CMakeFiles/May4.dir/May4.cpp.o: CXX_COMPILER__May4_Debug /Users/ethanshafranmoltz/Documents/NYU/Bridge$ 2022/Winter$ 24$ Week/Code/fstream_demo/May4.cpp || cmake_object_order_depends_target_May4
+  DEP_FILE = CMakeFiles/May4.dir/May4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/May4.dir
+  OBJECT_FILE_DIR = CMakeFiles/May4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target May4
+
+
+#############################################
+# Link the executable May4
+
+build May4: CXX_EXECUTABLE_LINKER__May4_Debug CMakeFiles/May4.dir/May4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/May4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = May4
+  TARGET_PDB = May4.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -105,7 +136,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Winter 24 Week/Code/fstream_demo/cmake-build-debug
 
-build all: phony LinkedLists
+build all: phony LinkedLists May4
 
 # =============================================================================
 # Built-in targets
