@@ -24,14 +24,13 @@ void RedBlackNode<T>::prettyPrint(int indent) const {
     }
 }
 
-//how would you print the minimum value in a queue (unsorted)?
-//pseudo-code:
+// how would you print the minimum value in a queue (unsorted)?
+// pseudo-code:
 /*
  * 1) copy queue to temp queue
  * 2) pop the temp queue one at a time
  * 3) keep track of minimum with .front()
  * 4) pop() and continue until queue is empty
- *
  * */
 
 
