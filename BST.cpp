@@ -19,7 +19,7 @@ public:
         _left = newLeft;
     }
 };
-
+//extra credit: templates!
 class BST{
 private:
     BSTNode* _root;
@@ -34,6 +34,7 @@ public:
 
     // feel free to add or substract parameters or do whatever to any of these functions
     void insert(int data);
+    
     void constructBSTVector(vector<int> v); // take in a vector and create a binary search tree from it # O(n) time
     void constructBSTarray(int *v);
 
@@ -41,7 +42,7 @@ public:
     BSTNode* findMax();
     BSTNode* remove();
     BSTNode* find(int x);
-    bool exists(int x); //is x in BST?
+    bool contains(int x); //is x in BST?
 
 };
 
