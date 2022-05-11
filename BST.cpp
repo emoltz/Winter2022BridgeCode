@@ -18,17 +18,24 @@ public:
         _right = newRight;
         _left = newLeft;
     }
-
 };
 
 class BST{
 private:
     BSTNode* _root;
 public:
+    BST(){
+        _root = nullptr;
+    }
+
+    BST(BSTNode* root){
+        _root = root;
+    }
 
     // feel free to add or substract parameters or do whatever to any of these functions
     void insert(int data);
-    void constructBSTVector(vector<int> v, BSTNode* root); // take in a vector and create a binary search tree from it # O(n) time
+    void constructBSTVector(vector<int> v); // take in a vector and create a binary search tree from it # O(n) time
+    void constructBSTarray(int *v);
 
     BSTNode* findMin();
     BSTNode* findMax();
