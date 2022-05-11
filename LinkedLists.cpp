@@ -11,8 +11,6 @@ class linkedList;
 
 class node{
     public:
-    int _height;
-    int _weight;
     int _data;
     node *_next;
 };
@@ -21,7 +19,7 @@ class linkedList{
 private:
     node *_head;
     node *_tail;
-    node *sorted;
+    
 public:
 
     linkedList(){
@@ -88,35 +86,7 @@ public:
         }
     }
 
-    void insertionSort(Node *headref){
-        sorted = nullptr;
-        node* current = headref;
-
-        while (current != nullptr){
-            node* next = current->_next;
-            sortedInsert(current);
-
-            current = next;
-        }
-
-        head = sorted;
-    }
-
-    void sortedInsert(node* newNode){
-        if(sorted == nullptr || sorted->_data >= newNode->_data){
-            newNode->next = sorted;
-            sorted = newNode;
-        }
-        else{
-            node* current = sorted;
-
-            while (current->next != nullptr && current->next->_data < newNode->_data){
-                current = current->next;
-            }
-            newNode->_next = current->_next;
-            current->_next = newNode;
-        }
-    }
+   
 
     void bubbleSortLinkedLists(int count){
         node** h;
@@ -175,32 +145,6 @@ bool linkedListSearch(node* front, int x){
         }
         return false;
 }
-
-
-//printing another class's data
-class class1{
-public:
-    int _data;
-    bool _t;
-};
-
-class class2{
-public:
-    class1 *ptr;
-    int _data2;
-    bool _s;
-
-    friend ostream &operator << (ostream &outs, class2 &obj){
-        outs << "This object: " << obj._data2 << endl;
-
-        if (obj.ptr != nullptr){
-            //print class1's _data
-            outs << "Class 1 Object:" << obj.ptr->_data << endl;
-        }
-        
-        return outs;
-    }
-};
 
 int main(){
     linkedList l;
