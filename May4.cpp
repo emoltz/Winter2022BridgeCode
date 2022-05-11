@@ -4,7 +4,7 @@ using namespace std;
 
 
 
-//for printing red black trees
+//for printing red black trees. Note that you have to create a redblacktree class
 template<class T>
 void RedBlackNode<T>::prettyPrint(int indent) const {
     if (right != nullptr) {
