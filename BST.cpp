@@ -34,7 +34,8 @@ public:
 
     // feel free to add or subtract parameters or do whatever to any of these functions
     void insert(int data);
-    
+
+    // extra credit: how would you construct a BST from a plain array and get a balanced tree afterwords?
     void constructBSTVector(vector<int> v); // take in a vector and create a binary search tree from it # O(n) time
     void constructBSTarray(int *v);
 
