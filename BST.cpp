@@ -32,7 +32,7 @@ public:
         _root = root;
     }
 
-    // feel free to add or substract parameters or do whatever to any of these functions
+    // feel free to add or subtract parameters or do whatever to any of these functions
     void insert(int data);
     
     void constructBSTVector(vector<int> v); // take in a vector and create a binary search tree from it # O(n) time
